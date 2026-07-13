@@ -6,8 +6,11 @@ buggle 관련 macOS 앱을 Homebrew로 설치하는 tap입니다.
 
 ```sh
 brew tap choeae-labs/tap
+brew trust choeae-labs/tap   # 최신 Homebrew(6.0+) 보안 정책 — 서드파티 tap을 1회 신뢰
 brew install --cask buggle-capture-helper
 ```
+
+> `brew trust`가 없는 구버전 Homebrew라면 그 줄은 건너뛰고 바로 install하면 됩니다.
 
 - 첫 실행 시 **시스템 설정 > 개인정보 보호 및 보안 > 화면 기록**에서 "buggle 캡처 도우미"를 켜야 캡처가 동작합니다.
 - 새 버전이 나오면 `brew upgrade --cask buggle-capture-helper`로 갱신합니다. (앱 자동업데이트는 코드서명 전까지 꺼져 있습니다 — Homebrew로 관리)
