@@ -1,6 +1,6 @@
 cask "buggle-capture-helper" do
   version "0.1.3"
-  sha256 :no_check # 릴리스 후 `shasum -a 256 <dmg>` 값으로 교체 권장(초기 임시)
+  sha256 "df118d460ec1221c32605d8af87ff9cea3aef02df6b5055e453d6469f91f0c0f"
 
   url "https://github.com/choeae-labs/buggle-capture-helper/releases/download/v#{version}/BuggleCaptureHelper.dmg"
   name "buggle 캡처 도우미"
