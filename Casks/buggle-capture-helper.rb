@@ -12,6 +12,13 @@ cask "buggle-capture-helper" do
 
   app "buggle 캡처 도우미.app"
 
+  # Developer ID 서명·공증 전이라 Gatekeeper가 quarantine된 앱을 "악성코드 확인 불가"로 막는다.
+  # 설치 시 quarantine 속성을 제거해 바로 실행되게 한다(무료 배포 임시 — 서명 붙이면 제거).
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/buggle 캡처 도우미.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/BuggleCapture",
   ]
