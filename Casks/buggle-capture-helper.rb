@@ -3,7 +3,7 @@ cask "buggle-capture-helper" do
   sha256 "1e4cbde6b7d4996b7065a5496010f7829311a5ea7320b53553d6cad86a5de9b1"
 
   url "https://github.com/choeae-labs/buggle-capture-helper/releases/download/v#{version}/BuggleCaptureHelper.dmg"
-  name "Buggle Capture"
+  name "buggle Capture"
   desc "buggle 전용 스크린샷·GIF 캡처 도우미"
   homepage "https://github.com/choeae-labs/buggle-capture-helper"
 
