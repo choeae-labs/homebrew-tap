@@ -12,7 +12,7 @@ brew install --cask buggle-capture-helper
 
 > `brew trust`가 없는 구버전 Homebrew라면 그 줄은 건너뛰고 바로 install하면 됩니다.
 
-- 첫 실행 시 **시스템 설정 > 개인정보 보호 및 보안 > 화면 기록**에서 "Buggle Capture"를 켜야 캡처가 동작합니다.
+- 첫 실행 시 **시스템 설정 > 개인정보 보호 및 보안 > 화면 기록**에서 "buggle Capture"를 켜야 캡처가 동작합니다.
 - 새 버전이 나오면 `brew upgrade --cask buggle-capture-helper`로 갱신합니다. (앱 자동업데이트는 코드서명 전까지 꺼져 있습니다 — Homebrew로 관리)
 - 여러 장 첨부는 웹의 **캡처 피커**(캡처 버튼 → 여러 장 선택)로 하세요. macOS는 다중 붙여넣기를 지원하지 않아 단일 이미지 붙여넣기만 됩니다.
 
