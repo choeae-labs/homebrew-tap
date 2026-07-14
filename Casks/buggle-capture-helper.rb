@@ -1,6 +1,6 @@
 cask "buggle-capture-helper" do
-  version "0.1.11"
-  sha256 "1ed61b133d5d6754f71a21bc3ebb5f6f80176ebbf35f2d0fbfcc40c218ecb6f3"
+  version "0.1.12"
+  sha256 "5097dc45c66d5f7078b554f16b833703237141a442d79ba351194ba21455e6fc"
 
   url "https://github.com/choeae-labs/buggle-capture-helper/releases/download/v#{version}/BuggleCaptureHelper.dmg"
   name "buggle Capture"
